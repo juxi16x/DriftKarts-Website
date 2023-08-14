@@ -62,7 +62,7 @@ function Videos() {
     return (
         <>
             <Container>
-                {videos.map((video, index) => <ReactPlayer
+                {videos.map((video, index) => <ReactPlayer key={index}
                     url={`https://www.youtube.com/watch?v=${video.id.videoId}`}
                     controls={true}>
                 </ReactPlayer>
