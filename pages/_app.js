@@ -1,6 +1,7 @@
 import Header from '../components/header/header';
 import Footer from '../components/footer/footer';
 import { GlobalStyle } from '../style/GlobalStyles';
+import Head from 'next/head';
 
 function MyApp({ Component, pageProps }) {
   return (
