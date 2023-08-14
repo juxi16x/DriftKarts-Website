@@ -5,6 +5,11 @@ import { GlobalStyle } from '../style/GlobalStyles';
 function MyApp({ Component, pageProps }) {
   return (
     <>
+      <Head>
+        <title>Drift Karts Wilamowice</title>
+        <metadata aria-description='drift karts'>
+        </metadata>
+      </Head>
       <GlobalStyle />
       <Header />
       <Component {...pageProps} />
