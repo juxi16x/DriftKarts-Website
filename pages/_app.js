@@ -1,3 +1,5 @@
+"use client";
+
 import Header from '../components/header/header';
 import Footer from '../components/footer/footer';
 import { GlobalStyle } from '../style/GlobalStyles';
@@ -8,8 +10,6 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <title>Drift Karts Wilamowice</title>
-        <metadata aria-description='drift karts'>
-        </metadata>
       </Head>
       <GlobalStyle />
       <Header />
